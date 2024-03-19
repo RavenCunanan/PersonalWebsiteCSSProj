@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px 0;
+}
+
+#about {
+    text-align: center;
+    padding: 40px;
+}
+
+#about p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #333; 
+    margin-top: 20px; 
+}
+
+#about p::first-letter {
+    font-size: 24px; /* Increase the size of the first letter for emphasis */
+    color: #35bd14; /* Add a different color to the first letter */
+}
+
+#about img {
+    border-radius: 50%;  /* Circle image */
+    max-width: 200px;
+}
+
+.project {
+    border: 4px solid #ccc;
+    padding: 20px;
+}
+
+.project img {
+    border-radius: 20px; /* Round borders */
+    width: 400px; 
+    height: 300px; 
+    
+}
+
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
